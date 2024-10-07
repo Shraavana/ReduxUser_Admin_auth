@@ -1,0 +1,33 @@
+.userlogin{
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url('https://th.bing.com/th/id/OIP.JDPW2HsmMAzRadcqD1HTogHaH0?w=1600&h=1690&rs=1&pid=ImgDetMain');
+}
+
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    }
+
+@media (min-width: 992px) {
+.rounded-tr-lg-0 {
+    border-top-right-radius: 0;
+}
+
+.rounded-bl-lg-5 {
+    border-bottom-left-radius: 0.5rem;
+}
+}
+.button{
+    padding: 0.6rem 10.5rem;
+    background: #da5767;
+    border: 2px solid #da5767;
+}
+.button-primary:hover {
+  
+    background-color: #df8c96;
+    border-color: #df8c96;
+    transition: .3s;
+  
+  }

@@ -1,0 +1,45 @@
+$leftSpaceForNavItems : 5%;
+$topSpace : 5px;
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.MainNavBar{
+    width: 100%;
+    background-color: rgb(249, 198, 198);
+    height: 4rem;
+    .HomeSpan{
+        position: relative;
+        top: $topSpace;
+        left: $leftSpaceForNavItems;
+    }
+    .ProfileSpan{
+        position: relative;
+        top: $topSpace;
+        left: $leftSpaceForNavItems;
+
+    }
+    .Divider{
+        position: relative;
+        top: $topSpace;
+        left: $leftSpaceForNavItems;
+
+    }
+    .LoginSpan{
+        position: relative;
+        top: $topSpace;
+        left: 80%;
+        &:hover{
+            &::before{
+                content: 'Click to';
+            }
+            left: 76.6%;
+        }
+    }
+    .UserName{
+        position: relative;
+        top: $topSpace;
+        left: 70%;
+    }
+}

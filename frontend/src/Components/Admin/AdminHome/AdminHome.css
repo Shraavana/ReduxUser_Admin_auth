@@ -1,0 +1,13 @@
+.adminhomecontent{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-details{
+    width: 30%;
+    margin-bottom: 10px;
+}
